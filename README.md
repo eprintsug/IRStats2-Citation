@@ -5,7 +5,7 @@ This extension to IRStats2 provides processor modules and reports for aggregatio
 citation counts from Web of Science and Scopus. Also, a processor and report for journals
 and publishers is provided.
 
-
+See http://www.zora.uzh.ch/cgi/stats/report for a live demo.
 
 
 ##Requirements
