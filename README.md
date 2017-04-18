@@ -1,5 +1,5 @@
-#IRStats2-Citation
-##Citation count Processor and Report for IRStats2
+# IRStats2-Citation
+## Citation count Processor and Report for IRStats2
 
 This extension to IRStats2 provides processor modules and reports for aggregation of
 citation counts from Web of Science and Scopus. Also, a processor and report for journals
@@ -8,7 +8,7 @@ and publishers is provided.
 See http://www.zora.uzh.ch/cgi/stats/report for a live demo.
 
 
-##Requirements
+## Requirements
 
 IRStats 2.0 (http://bazaar.eprints.org/365/) installed and working.
 
@@ -22,7 +22,7 @@ the WoS LAMR script developed by University of Zurich
 (https://github.com/eprintsug/WoSLAMR-Import)
 
 
-##General setup
+## General setup
 
 The setup procedure consists of the following steps
 
@@ -32,15 +32,15 @@ The setup procedure consists of the following steps
 
 
 
-##Installation
+## Installation
 
 Copy the content of cfg directory to the respective 
 {eprints_root}/archives/{yourarchive}/cfg directory
 
 
-##Configuration
+## Configuration
 
-###Edit your configuration for IRStats2
+### Edit your configuration for IRStats2
 
 In cfg.d/z_stats_example.pl we provide an example configuration as it is used for the
 University of Zurich.
@@ -55,12 +55,12 @@ To enable the reports, copy the lines in cfg.d/plugins_snippet.pl into your
 cfg.d/plugins.pl at the section for your plugin mappings (starting with \# Plugin Mapping).
 
 
-###Restart the web server
+### Restart the web server
 
 After you have edited the configuration files, restart the web server.
 
 
-###Recalculation of the complete IRStats2 statistics
+### Recalculation of the complete IRStats2 statistics
 
 Rerun 
 
